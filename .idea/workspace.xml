@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="138d00f8-b0d2-428a-80d5-da1a15e10f86" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/aspect/DaoAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/aspect/DaoAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/constants/SysConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/constants/SysConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementReceiverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementReceiverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementReceiverMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementReceiverMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementReceiverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementReceiverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementReceiverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementReceiverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementReceiverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementReceiverMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/JwtTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/JwtTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/SecurityUtils.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ymw-core/target/" />
+    <ignored path="$PROJECT_DIR$/ymw-admin/target/" />
+    <ignored path="$PROJECT_DIR$/ymw-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goods_yard@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goods_yard@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goods_yard@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="goods_yard: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goods_yard@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="goods_yard: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="sys_announcement: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JwtTokenUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/JwtTokenUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/SecurityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/security/JwtAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding>
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YmwAdminApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/YmwAdminApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterChain.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/javax/servlet/FilterChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>execution</find>
+      <find>&lt;=</find>
+      <find>findNavTree</find>
+      <find>params</find>
+      <find>perms</find>
+      <find>@GetMapp</find>
+      <find>过期</find>
+      <find>ExpiredJwtException</find>
+      <find>BasicAuthenticationFilter</find>
+      <find>postAuthenticationChecks.check</find>
+      <find>WebSecurityConfig</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/TestTableMapper.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/TestTableService.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/TestTableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysUser.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/aspect/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/TestTableController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/Generator.java" />
+        <option value="$PROJECT_DIR$/ymw-common/src/main/java/com/ymw/common/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/ColumnUtil.java" />
+        <option value="$PROJECT_DIR$/.idea/.name" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncementReceiver.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysBasisController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysDictController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysLogController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementService.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementMapper.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementMapper.xml" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysFileController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/dao/sys/SysAnnouncementReceiverMapper.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/aspect/DaoAspect.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0ea83650-2dfb-4e15-b92d-a942dd337c5c/console.sql" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementReceiverMapper.xml" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncement.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementReceiverController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementReceiverService.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/constants/SysConstants.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementReceiverServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysUserController.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/security/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/JwtTokenUtils.java" />
+        <option value="$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/config/WebSecurityConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/soft/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="sevice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="sevice" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="sevice" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_yard" type="462c0819:PsiDirectoryNode" />
+              <item name="ymw-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_yard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="ExpiredJwtException&#9;FILE&#9;jar://D:/soft/maven-repository/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/ExpiredJwtException.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../education" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ymw.admin.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\goods_yard\ymw-admin\src\main\java\com\ymw\admin\sqlmap" />
+      <recent name="D:\ideaProjects\goods_yard\ymw-admin\src\main\java\com\ymw\admin\sqlmap\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YmwAdminApplication">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ymw.admin.util.Generator" />
+      <module name="ymw-admin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ymw.admin.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="YmwAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ymw-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ymw.admin.YmwAdminApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.YmwAdminApplication" />
+      <item itemvalue="Application.Generator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaProjects\goods_yard" />
+          <option name="myCopyRoot" value="D:\ideaProjects\goods_yard" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaProjects\goods_yard" />
+          <option name="myCopyRoot" value="D:\ideaProjects\goods_yard" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="138d00f8-b0d2-428a-80d5-da1a15e10f86" name="Default" comment="" />
+      <created>1577238245149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577238245149</updated>
+      <workItem from="1577238249712" duration="25636000" />
+      <workItem from="1577320991934" duration="11063000" />
+      <workItem from="1577408014227" duration="23780000" />
+      <workItem from="1577666781938" duration="4108000" />
+      <workItem from="1577751561818" duration="1831000" />
+      <workItem from="1577841295492" duration="1359000" />
+      <workItem from="1577926800681" duration="686000" />
+      <workItem from="1578012108478" duration="2429000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1577239075983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577239075983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update basis info">
+      <created>1577250522778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577250522778</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update basis info">
+      <created>1577412220426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577412220426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70892000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" weight="0.17697228" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.39978212" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32897604" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26332623" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="SVN Repositories" order="14" weight="0.32897604" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32897604" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="update basis info" />
+    <option name="LAST_COMMIT_MESSAGE" value="update basis info" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>SecurityContextHolder.getContext().getAuthentication()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expiration.before(new Date())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>authentication</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userName</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sysMenu</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sysMenus</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sysMenuMapper.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userName == null || &quot;&quot;.equals(userName) || SysConstants.ADMIN.equalsIgnoreCase(userName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>permissions</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ea83650-2dfb-4e15-b92d-a942dd337c5c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncementReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sqlmap/sys/SysAnnouncementReceiverMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/model/sys/SysAnnouncement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="78" column="48" lean-forward="true" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/sys/SysAnnouncementReceiverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementReceiverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/constants/SysConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementReceiverServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/sevice/impl/sys/SysAnnouncementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysAnnouncementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="85" column="55" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE-sources.jar!/org/springframework/security/access/prepost/PreAuthorize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/controller/sys/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-common/src/main/java/com/ymw/common/constants/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2225">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="915" column="19" selection-start-line="915" selection-start-column="19" selection-end-line="915" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="262" column="36" selection-start-line="262" selection-start-column="36" selection-end-line="262" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/impl/DefaultJws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/Claims.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/ExpiredJwtException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/header/HeaderWriterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/context/request/async/WebAsyncManagerIntegrationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/HttpPutFormContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/HiddenHttpMethodFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.4.RELEASE/spring-boot-actuator-2.0.4.RELEASE-sources.jar!/org/springframework/boot/actuate/metrics/web/servlet/WebMvcMetricsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-core/src/main/java/com/ymw/core/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="135" column="46" lean-forward="true" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1376">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/javax/servlet/FilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE.jar!/org/springframework/security/web/FilterInvocation.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-core/src/main/java/com/ymw/core/http/HttpResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/JwtTokenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/util/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/FilterInvocation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/support/http/WebStatFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractInterceptUrlConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="136" column="57" lean-forward="true" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.7.RELEASE/spring-security-web-5.0.7.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="676" column="53" selection-start-line="676" selection-start-column="53" selection-end-line="676" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ymw-admin/src/main/java/com/ymw/admin/YmwAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|ymw-admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ymw.admin.dao.sys.SysAnnouncementMapper">
+
+    <select id="findPage" resultType="com.ymw.admin.model.sys.SysAnnouncement">
+        select t.*,tt.name from sys_announcement t left join sys_user tt on t.user_id = tt.id
+        <where>
+            <if test="deptId != null and deptId != ''">
+                and t.dept_id = #{deptId}
+            </if>
+            <if test="name != null and name != ''">
+                <bind name="nameTemp" value="'%' + _parameter.name + '%'"/>
+                and tt.name like #{nameTemp}
+            </if>
+            <if test="title != null and title != ''">
+                <bind name="titleTemp" value="'%' + _parameter.title + '%'"/>
+                and t.title like #{titleTemp}
+            </if>
+            <if test="startDate != null and startDate != ''">
+                and t.create_time >= date(#{startDate})
+            </if>
+            <if test="endDate != null and endDate != ''">
+                <![CDATA[and t.create_time <= date(#{endDate})]]>
+            </if>
+            <if test="status !=null and status != ''">
+                and t.status = #{status}
+            </if>
+        </where>
+    </select>
+</mapper>

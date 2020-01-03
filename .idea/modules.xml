@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/goods_yard.iml" filepath="$PROJECT_DIR$/goods_yard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymw-admin/ymw-admin.iml" filepath="$PROJECT_DIR$/ymw-admin/ymw-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymw-common/ymw-common.iml" filepath="$PROJECT_DIR$/ymw-common/ymw-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymw-core/ymw-core.iml" filepath="$PROJECT_DIR$/ymw-core/ymw-core.iml" />
+    </modules>
+  </component>
+</project>

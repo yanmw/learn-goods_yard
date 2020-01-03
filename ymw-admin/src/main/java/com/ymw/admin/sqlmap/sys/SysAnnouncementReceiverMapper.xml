@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ymw.admin.dao.sys.SysAnnouncementReceiverMapper">
+
+    <select id="findList" resultType="com.ymw.admin.model.sys.SysAnnouncementReceiver">
+        select t.*,tt.name from sys_announcement_receiver t inner join sys_user tt on t.user_id = tt.id
+        <where>
+            <if test="id !=null and id != ''">
+                t.announcement_id =#{id}
+            </if>
+        </where>
+    </select>
+    <select id="findListByAnnId" resultType="com.ymw.admin.model.sys.SysAnnouncementReceiver">
+        select t.*,(select name from sys_user tt where tt.id = t.user_id) name from sys_announcement_receiver t where t.announcement_id = #{id}
+    </select>
+    <select id="findPage" resultType="com.ymw.admin.model.sys.SysAnnouncement">
+      select tt.*,(select u.name from sys_user u where u.id = tt.user_id) name,t.id receiverId from sys_announcement_receiver t left join sys_announcement tt on t.announcement_id = tt.id
+      <where>
+          <if test="status != null and status != ''">
+              and tt.status = #{status}
+          </if>
+          <if test="deptId != null and deptId != ''">
+              and tt.dept_id = #{deptId}
+          </if>
+          <if test="title != null and title != ''">
+              <bind name="titleTemp" value="'%' + _parameter.title + '%'"/>
+              and tt.title like #{title}
+          </if>
+          <if test="startDate != null and startDate != ''">
+              and tt.create_time >= date(#{startDate})
+          </if>
+          <if test="endDate != null and endDate != ''">
+              <![CDATA[and tt.create_time <= date(#{endDate})]]>
+          </if>
+          <if test="type != null and type != ''">
+              and tt.type = #{type}
+          </if>
+          <if test="receiverId != null and receiverId != ''">
+              and t.user_id = #{receiverId}
+          </if>
+          <if test="userId != null and userId != ''">
+              and tt.user_id = #{userId}
+          </if>
+      </where>
+    </select>
+</mapper>
